@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background-color: #550527;  
+    height: 10vh; 
+}
+
+h1{
+    
+    line-height: 10vh;
+    color: whitesmoke;
+}
+
+.moves button img{
+    height: 15vmin;
+    border-radius: 50%;
+    width: 15vmin;
+    background: none;
+    object-fit: cover;
+}
+
+button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vmin;
+    width: 17vmin;
+}
+
+.moves{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+button:hover{
+    background-color: #F44708;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#user-score, #comp-score{
+    font-size: 50px;
+}
+
+.message{
+    padding: 50px;
+}
+
+#status{
+    background-color: #550527;
+    color: whitesmoke;
+    display: inline;
+    height: 7vmin;
+    line-height: 7vmin;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.logo img{
+    height: 28vh;
+    object-fit: cover;
+}
